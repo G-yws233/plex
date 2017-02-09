@@ -1,0 +1,343 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title></title>
+<style type="text/css">
+<!--
+body			{background-color: #006AA6;FONT-FAMILY: 宋体; FONT-SIZE: 12px; color: #0066CC;}
+A				{COLOR: #000000; TEXT-DECORATION: underline;}
+TD				{FONT-SIZE: 12px; COLOR: #000000; WORD-BREAK: break-all; }
+A:link			{COLOR: #00ccdd; TEXT-DECORATION: none;}
+A:visited		{COLOR: #00ccdd; TEXT-DECORATION: none;}
+A:hover			{COLOR: #FFFFFF; TEXT-DECORATION: none;}
+A:active		{TEXT-DECORATION: none;}
+.bg				{background-image: url(img/bg5.gif);background-repeat: repeat-x;background-position: bottom;}
+a.a1:visited	{color:#0066CC;	text-decoration: none;	font-weight: bold;	font-size: 12px;}
+a.a1:link		{color:#0066CC;	text-decoration: none;	font-weight: bold;font-size: 12px;}
+a.a1:active		{color:#993366;text-decoration: none;font-size: 12px;}
+a.a1:hover		{color:#0099FF;text-decoration: underline;font-size: 12px;}
+.button2 {position: relative;overflow: hidden;height: 20px;width: 38px;background-color: #B8D7FC;
+	      color: #000000;text-decoration: none;margin: 0px;padding: 4px;border-top: 0px outset #d1e5fd;border-right: 0px inset #d1e5fd;
+	      border-bottom: 0px inset #d1e5fd;border-left: 0px outset #d1e5fd;background-image: url(img/tb2.gif);}/*2个字的按扭样式*/
+ .ks {position: relative;overflow: hidden;height: 65px;width: 87px;background-color: #B8D7FC;
+	      color: #000000;text-decoration: none;margin: 0px;padding: 4px;border-top: 0px outset #d1e5fd;border-right: 0px inset #d1e5fd;
+	      border-bottom: 0px inset #d1e5fd;border-left: 0px outset #d1e5fd;background-image: url(img/ks.gif);}/*开始*/
+ .tz {position: relative;overflow: hidden;height: 65px;width: 87px;background-color: #B8D7FC;
+	      color: #000000;text-decoration: none;margin: 0px;padding: 4px;border-top: 0px outset #d1e5fd;border-right: 0px inset #d1e5fd;
+	      border-bottom: 0px inset #d1e5fd;border-left: 0px outset #d1e5fd;background-image: url(img/tz.gif);}/*停止*/
+-->
+</style>
+</head>
+<body>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td><img src="img/top01.gif"></td>
+ <td><img src="img/topz.gif"></td>
+ <td><img src="img/top03.gif"></td>
+  </tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td width="6" rowspan="3"><img src="img/index_01.gif"></td>
+ <td width="270" rowspan="3" background="img/bg1.jpg"></td>
+ <td width="5" rowspan="3" background="img/bg2.gif"></td>
+ <td width="248" height="16" background="img/bg3.gif"></td>
+ <td width="7" rowspan="3"><img src="img/y.gif" ></td>
+ <td width="275" rowspan="3" background="img/bg1.jpg"></td>
+ <td width="5" rowspan="3"><img src="img/index_02.gif"></td>
+  </tr>
+  <tr>
+ <td height="2" bgcolor="#C6E6F5"></td>
+  </tr>
+  <tr>
+ <td height="16" background="img/bg2.jpg"></td>
+  </tr>
+</table>
+<table width="800"  border="0" align="center" cellpadding="0" cellspacing="0"  bgcolor="#D1EEFE">
+  <tr>
+ <td height="80">&nbsp;</td>
+ <td><div align="center"><font size="6" color="#00088c"><strong>措施费权重抽签系统</strong></font> </div></td>
+  </tr>
+</table>
+<table width="800" height="14"  border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td width="11" bgcolor="#D1EEFE"></td>
+ <td width="7"><img src="img/xz.gif" ></td>
+ <td width="874" background="img/xbg.gif"></td>
+ <td width="9"><img src="img/xy.gif" ></td>
+ <td width="13" bgcolor="#D1EEFE"></td>
+  </tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td height="5" align="center" valign="bottom" bgcolor="#D1EEFE"></td>
+  </tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" class="bg">
+  <tr>
+ <td align="center" valign="middle">
+ <table width="780" height="12" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+ <td width="4"><img src="img/1.gif" ></td>
+ <td><img src="img/bg01.gif"></td>
+ <td background="img/bg02.gif" width="100%"></td>
+ <td><img src="img/bg03.gif"></td>
+ <td width="4"><img src="img/3.gif"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" class="bg">
+  <tr align="center"  width="776">
+ <td  valign="top">
+ <table border="0" cellpadding="0" cellspacing="0"  height="300" >
+  <tr>
+ <td background="img/bg21.gif" width="12"></td>
+ <td width="752" height="100%"  valign="top">
+ <form  id="form1"  name="form1">
+	<p style="margin-top: 0; margin-bottom: 0" align="left"><input type="file" name="F1" size="40">
+	<input type="button" value="导入" name="B9" onclick="javascript:toread()">
+	<input type="button" value="导出" name="B10" onclick="javascript:towrite()"></p>
+ <table id="table1" width="100%"  border="5"   cellspacing="0" cellpadding="0" bordercolor="#FFFFFF">
+  <tr>
+
+    <td valign="top" align="left">
+    &nbsp;&nbsp;&nbsp;
+	        <select size="6" name="D1" id="select" style="width:250px; height:160px; font-size:20px; font-weight:800;"">
+</select>	
+			
+            <input type="button" value="删除" name="B4" onClick="vbscript:del()"  class="button2">	&nbsp;
+			<input type="button" value="清空" name="B5" onclick="vbscript:dels()"  class="button2"><br><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="T1" size="17" id="T1"  style="width:195px;">
+			<input type="button" value="新增" name="B1" onclick="vbscript:add()" class="button2""></td>
+   <td width="5"  bgcolor="#FFFFFF">
+   <table height="100%"  width="5" cellspacing="0" cellpadding="0" bgcolor="#FFFFFF">
+   <tr><TD height="100%" bgcolor="#FFFFFF"></TD></tr>
+   </table>
+   </td>
+    <td valign="top"><textarea  name="S1" id="S1"  style="width:250px; height:148px; font-size:20px; font-weight:800;"></textarea>
+	<input type="button" value="清空" name="B6" onclick="vbscript:dels1()" class="button2"><p>
+	<b>
+	<font size="4" color="#FF0000"><label id="lab">已抽取0个</label></font></b></td>
+  </tr>
+</table>
+<table width="100%"   border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center" height="20">
+	         </td>
+		</tr>
+	</table>
+	<table width="100%"   border="0" cellpadding="0" cellspacing="0">
+		<tr>
+			<td align="center">
+<input type="text" name="T2" size="20" id="T2"  style="width:400px; height:56px; font-size:40px; color:#FF0000; font-weight:800;">
+	<input type="button" name="B2" onclick="javascript:start1()" class="ks">&nbsp;&nbsp;
+	<input type="button" name="B3" onclick="javascript:stop1()"  class="tz">
+	         </td>
+		</tr>
+	</table>
+	
+</form>
+<script Language="JavaScript">
+var timerID;
+var timerRunning;
+var n;
+var select1;
+//var select2;
+var e;
+var sl=0;
+function stop1(){
+if(timerRunning)
+{clearTimeout(timerID);
+//e = document.createElement("OPTION"); 
+//e.text=document.form1.T2.value;
+//e.value=document.form1.T2.value;
+//select2.options.add(e);
+//e=null;
+document.form1.S1.value=document.form1.S1.value+document.form1.T2.value+"\r\n";
+sl=sl+1;
+document.all.lab.innerHTML="已抽取"+sl+"个";
+if (n>-1){
+n=n-1;
+if (n==-1) n=select1.options.length-1;
+select1.remove(n);
+}
+}
+timerRunning = false;
+}
+ 
+ 
+function show() {
+if (select1.hasChildNodes()){
+document.form1.T2.value=select1[n].value;
+
+if (n==select1.options.length-1){
+	n=0};
+	else
+	{n=n+1}	;
+
+timerID = setTimeout("show()",50);
+timerRunning = true;}
+}
+function start1() {
+ timerID = null;
+timerRunning = false;
+ n=0;
+ 
+select1=document.form1.D1;
+//select2=document.form1.D2;
+
+stop1();
+show();
+}
+function toread(){
+var filestr=document.form1.F1.value
+if(filestr.replace(/(^\s*)|(\s*$)/g,"")!=""){
+var ofso=new ActiveXObject("Scripting.FileSystemObject");
+var ostream=ofso.OpenTextFile(filestr);
+select1=document.form1.D1;
+while(!ostream.AtEndOfStream)
+{
+     str=ostream.ReadLine();
+     if (str.replace(/(^\s*)|(\s*$)/g,"")!=""){
+ e = document.createElement("OPTION"); 
+e.text=str;
+e.value=str;
+select1.options.add(e);
+e=null;    
+     }
+     //document.forms[0].S1.value+=str
+     //document.all("txt").innerhtml+=str+"<br>";
+     
+     }
+
+     ostream.Close();
+  alert("原始内容导入成功！");
+     }
+else
+alert("请输入有效的文件名！");
+    
+     
+     
+}
+function towrite(){
+var filestr=document.form1.F1.value
+if(filestr.replace(/(^\s*)|(\s*$)/g,"")!=""){
+var ofso=new ActiveXObject("Scripting.FileSystemObject");
+
+var ostream=ofso.OpenTextFile(filestr.substring(0,filestr.length-4)+"_抽签结果.txt",2,1);
+ostream.Write(document.form1.S1.value)
+     ostream.Close();
+     alert("抽签结果导出成功！");
+     }
+else
+alert("请输入有效的文件名！");
+}
+
+</script>
+
+
+
+<SCRIPT  LANGUAGE=vbscript>
+
+function add()
+if trim(document.form1.T1.value)<>"" then
+
+	Dim e,select1
+	set select1=document.form1.D1 
+		set e = Document.createElement("OPTION") 
+		e.Text=document.form1.T1.value 
+		e.Value=document.form1.T1.value
+		select1.Options.Add e
+		document.form1.T1.value=""
+		set e=nothing
+
+	set select1=nothing
+end if
+end function 
+
+
+
+function del()
+	Dim select1
+	set select1=document.form1.D1
+if select1.selectedIndex<>-1 then
+		select1.remove(select1.selectedIndex)
+end if
+	set select1=nothing
+end function 
+function dels()
+	Dim select1
+	set select1=document.form1.D1 
+do while(select1.hasChildNodes())
+	
+		select1.removeChild( select1.firstChild ) 
+
+	loop 
+
+	set select1=nothing
+
+end function 
+function dels1()
+	'Dim select1
+	'set select1=document.form1.D2 
+'do while(select1.hasChildNodes())
+	
+		'select1.removeChild( select1.firstChild ) 
+
+	'loop 
+
+	'set select1=nothing
+document.form1.S1.value=""
+sl=0
+document.all.lab.innerHTML="已抽取"+cstr(sl)+"个"
+end function 
+
+
+</SCRIPT> 
+ </td>
+ <td background="img/bg22.gif" width="12"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0" class="bg">
+  <tr>
+ <td align="center" valign="middle">
+ <table width="780" height="12" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+ <td width="4"><img src="img/1.gif" ></td>
+ <td><img src="img/bg11.gif"></td>
+ <td background="img/bg12.gif" width="100%"></td>
+ <td><img src="img/bg13.gif"></td>
+ <td width="4"><img src="img/3.gif"></td>
+  </tr>
+</table>
+</td>
+  </tr>
+</table>
+<table width="800" height="23" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td><img src="img/xxz.gif"></td>
+ <td width="682" background="img/xxbg.gif">　</td>
+ <td><img src="img/xxy.gif"></td>
+  </tr>
+</table>
+<table width="800" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+ <td><img src="img/xxxz.gif"></td>
+ <td width="785" background="img/xxxbg.gif">　</td>
+ <td><img src="img/xxxy.gif" ></td>
+  </tr>
+</table>
+
+	
+
+
+
+</body></html>

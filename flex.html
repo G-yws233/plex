@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>flex布局</title>
+</head>
+<style>
+	html,body{
+		margin:0;
+		height:100%;
+	}
+	a{
+		text-decoration:none;
+		color:#fff;
+	}
+	body{
+		display: flex;
+		flex-direction:column;
+	}
+	header{
+		height:40px;
+		width:100%;
+		background: #4C8CF5;
+		display: flex;
+		flex-grow:0;
+		justify-content:space-between;
+		align-items:center;
+	}
+	header a{
+		width:30px;
+		height:30px;
+		padding: 0 10px;
+		font-size: 30px;
+		text-align: center;
+		line-height: 30px;
+	}
+	header h4{
+		color:#fff;
+		font-size: 30px;
+	}
+	section{
+		width:100%;
+		overflow: auto;
+		display: flex;
+		flex-grow:1;
+	}
+	section .left{
+		flex-grow:0;
+		width:40%;
+	}
+	footer{
+		flex-grow:0;
+		width:100%;
+		height:60px;
+		display: flex;
+		background: #17A05D;
+	}
+	footer a{
+		flex-grow:1;
+		text-align: center;
+		line-height: 60px;
+	}
+</style>
+<body>
+	<header>
+		<a href="">=</a>
+		<h4>LOGO</h4>
+		<a href="">→</a>
+	</header>
+	<section>
+		<div class="left">
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:100%;" src="http://img2.imgtn.bdimg.com/it/u=3830836283,3666081037&fm=11&gp=0.jpg" alt=""></div>
+				<figcaption>紫色星空宇宙风景图片大全...</figcaption>
+			</figure>
+		</div>
+		<div class="right">
+			<figure>
+				<div><img style="width:30%;" src="http://img5.imgtn.bdimg.com/it/u=2211469856,3384574501&fm=23&gp=0.jpg" alt=""></div>
+				<figcaption>　　
+					听着窗外的雨，滴答滴答，一声声触动心弦。风还在摇曳不停，玻璃轻轻地落泪了。我站在那窗想你的心更深更痛了。不知道你此刻在想些什么？在做些什么？母亲几次对我说，别喜欢你这样的人。你是璀璨的星，你是遥不可及的梦，你更是我的晴天，我所有的情绪因你而变化着。我呢？是秋天无数落叶中的一片，无声无息。你属于天空，只能仰望不能触碰。落叶擦过我的肩头，也告诉我：别傻了，人家可是在太平洋的彼岸，绕个大半球，你们也不会遇见的。落叶归根，你还是在这，静静的看落花有意流水无情的季节吧！
+			</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:30%;" src="http://img5.imgtn.bdimg.com/it/u=2211469856,3384574501&fm=23&gp=0.jpg" alt=""></div>
+				<figcaption>　　
+					听着窗外的雨，滴答滴答，一声声触动心弦。风还在摇曳不停，玻璃轻轻地落泪了。我站在那窗想你的心更深更痛了。不知道你此刻在想些什么？在做些什么？母亲几次对我说，别喜欢你这样的人。你是璀璨的星，你是遥不可及的梦，你更是我的晴天，我所有的情绪因你而变化着。我呢？是秋天无数落叶中的一片，无声无息。你属于天空，只能仰望不能触碰。落叶擦过我的肩头，也告诉我：别傻了，人家可是在太平洋的彼岸，绕个大半球，你们也不会遇见的。落叶归根，你还是在这，静静的看落花有意流水无情的季节吧！
+			</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:30%;" src="http://img5.imgtn.bdimg.com/it/u=2211469856,3384574501&fm=23&gp=0.jpg" alt=""></div>
+				<figcaption>　　
+					听着窗外的雨，滴答滴答，一声声触动心弦。风还在摇曳不停，玻璃轻轻地落泪了。我站在那窗想你的心更深更痛了。不知道你此刻在想些什么？在做些什么？母亲几次对我说，别喜欢你这样的人。你是璀璨的星，你是遥不可及的梦，你更是我的晴天，我所有的情绪因你而变化着。我呢？是秋天无数落叶中的一片，无声无息。你属于天空，只能仰望不能触碰。落叶擦过我的肩头，也告诉我：别傻了，人家可是在太平洋的彼岸，绕个大半球，你们也不会遇见的。落叶归根，你还是在这，静静的看落花有意流水无情的季节吧！
+			</figcaption>
+			</figure>
+			<figure>
+				<div><img style="width:30%;" src="http://img5.imgtn.bdimg.com/it/u=2211469856,3384574501&fm=23&gp=0.jpg" alt=""></div>
+				<figcaption>　　
+					听着窗外的雨，滴答滴答，一声声触动心弦。风还在摇曳不停，玻璃轻轻地落泪了。我站在那窗想你的心更深更痛了。不知道你此刻在想些什么？在做些什么？母亲几次对我说，别喜欢你这样的人。你是璀璨的星，你是遥不可及的梦，你更是我的晴天，我所有的情绪因你而变化着。我呢？是秋天无数落叶中的一片，无声无息。你属于天空，只能仰望不能触碰。落叶擦过我的肩头，也告诉我：别傻了，人家可是在太平洋的彼岸，绕个大半球，你们也不会遇见的。落叶归根，你还是在这，静静的看落花有意流水无情的季节吧！
+			</figcaption>
+			</figure>
+		</div>
+	</section>
+	<footer>
+		<a href="">首页</a>
+		<a href="">首页</a>
+		<a href="">首页</a>
+	</footer>
+</body>
+</html>

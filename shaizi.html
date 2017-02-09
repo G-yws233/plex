@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>骰子</title>
+</head>
+<style>
+	.box{
+		width:300px;
+		height:300px;
+		border-radius: 20px;
+		border:2px solid #000;
+		display: flex;
+	}
+	.point{
+		width:80px;
+		height:80px;
+		border-radius:50%;
+		background-image:radial-gradient(#f00 3%,#222);
+		flex:none;
+	}
+	/*一点*/
+	.one{
+		justify-content:center;
+		align-items:center;
+	}
+	.one .point{
+		width:120px;
+		height:120px;
+	}
+	/*二点*/
+    .two{
+      justify-content: space-between;
+    }
+
+    .two .point:nth-child(2) {
+      align-self: flex-end;
+    }
+	/*三点*/
+	.three{
+      justify-content: space-between;
+    }
+	.three .point:nth-child(2) {
+      align-self: center;
+    }
+    .three .point:nth-child(3) {
+      align-self: flex-end;
+    }
+	/*四点*/
+	.four{
+		flex-wrap:wrap;
+		align-content:space-between;
+	}
+    .four .right,.four .left{
+    	width:300px;
+    	height:80px;
+    	display:flex;
+    	justify-content: space-between;
+    }
+	/*五点*/
+	.five{
+		flex-wrap:wrap;
+		align-content:space-between;
+	}
+    .five .right,.five .left{
+    	width:300px;
+    	height:80px;
+    	display:flex;
+    	justify-content: space-between;
+    }
+    .five .mid{
+    	width:300px;
+    	height:80px;
+    	display:flex;
+    	justify-content: center;
+    }
+    /*六点*/
+	.six{
+		flex-wrap:wrap;
+		align-content:space-between;
+	}
+    .six .right,.six .left,.six .mid{
+    	width:300px;
+    	height:80px;
+    	display:flex;
+    	justify-content: space-between;
+    }
+    /*四点，六点*/
+    .four2 ,.six2{
+    	display: flex;
+    	flex-direction:column;
+    	justify-content: space-between;
+    	align-items:space-between;
+    }
+</style>
+<body>
+	<!-- 一点 -->
+	<div class="box one">
+		<div class="point"></div>
+	</div>
+	<!-- 二点 -->
+	<div class="box two">
+		<div class="point"></div>
+		<div class="point"></div>
+	</div>
+	<!-- 三点 -->
+	<div class="box three">
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+	</div>
+	<!-- 四点 -->
+	<div class="box four">
+		<div class="left">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+		<div class="right">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+	</div>
+	<div class="box four2">
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+	</div>
+	<!-- 五点 -->
+	<div class="box five">
+		<div class="left">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+		<div class="mid">
+			<div class="point"></div>
+		</div>
+		<div class="right">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+	</div>
+	<!-- 六点 -->
+	<div class="box six">
+		<div class="left">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+		<div class="mid">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+		<div class="right">
+			<div class="point"></div>
+			<div class="point"></div>
+		</div>
+	</div>
+	<div class="box six2">
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+		<div class="point"></div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>上下两列布局</title>
+</head>
+<style>
+	html,body{
+		height:100%;
+	}
+	body{
+		margin:0;
+		display: flex;
+	}
+	.box{
+		width:100%;
+		height: 100%;
+		box-sizing:border-box;
+		border:3px solid lightgreen;
+		display: flex;
+		flex-direction:column;
+	}
+	.box div{
+		border:3px solid darkgreen;
+		flex-grow:1;
+	}
+	.box .up{
+		flex-grow:0;
+		height:100px;
+	}
+	.box .down{
+		display: flex;
+	}
+	.box .down div{
+		flex-grow:1;
+	}
+	.box .down .left{
+		flex-grow:0;
+		width:60px;
+	}
+</style>
+<body>
+	<div class="box">
+		<div class="up">up</div>
+		<div class="down">
+			<div class="left">left</div>
+			<div class="right">right</div>
+		</div>
+	</div>
+</body>
+</html>

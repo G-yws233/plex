@@ -1,0 +1,83 @@
+body{
+	margin:0;
+	font-size:16px;
+	font-family: helvetica;
+}
+a{
+	text-decoration:none;
+	color:#fff;
+}
+*{
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+}
+header{
+	height:1.32rem;
+	background: #333;
+	width:100%;
+	display: flex;
+	align-items:center;
+	justify-content:space-between;
+}
+header a{
+	height:0.5rem;
+	flex-grow:1;
+}
+header a:nth-child(1){
+	width:1rem;
+	height:0.8rem;
+	border-right: 1px solid #222;
+	text-align: center;
+	line-height: 0.8rem;
+	margin-right: 0.5rem;
+	font-size: 0.7rem;
+	flex-grow:0;
+}
+header a:nth-child(3){
+	width:1rem;
+	text-align: center;
+	line-height: 0.5rem;
+	font-size: 0.7rem;
+	flex-grow:0;
+}
+section{
+	background: #686F78;
+	display: flex;
+	flex-wrap:wrap;
+}
+section a{
+	height:3.8rem;
+	display: flex;
+	flex:0 1 33.333333%;
+	text-align: center;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+}
+section a img{
+	width:1rem;
+	margin-bottom: 0.4rem;
+}
+.tengxun{
+	width:100%;
+	height:1.16rem;
+	background: #EEEFF3;
+	line-height: 1.16rem;
+	display: flex;
+	align-item:center;
+}
+.tengxun span{
+	padding-left:0.5rem;
+}
+.teng{
+	background: #fff;
+}
+.teng a{
+	color:#000;
+	border-right: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E6E6E6;
+}
+.teng a:nth-child(3n){
+	border-right: none;
+}
